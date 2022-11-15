@@ -60,11 +60,13 @@ span{
   padding:5px;
   margin:5px;
   /* height:20px;
-  width:100%;
-  background-color:var(--brown); */
+  width:100%;*/
+  background-color:var(--brown); 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size:20px;
-  color:var(--brown);
+  color:var(--back);
+  text-align:left;
+  width:max-content;
 }
 
 
