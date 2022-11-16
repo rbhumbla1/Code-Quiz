@@ -82,13 +82,18 @@ function saveResults() {
     initials = document.querySelector("#initials");
 }
 
-function getScoreListString() {
+function getScoreListString(link) {
     var storedList = JSON.parse(localStorage.getItem("scoreList"));
     var values = "";
 
     for (var i = 0; i < storedList.length; i++) {
         console.log("sow res = " + storedList[i].initials + " - " + storedList[i].score);
-        values += "<span>" + i + 1 + ". " + storedList[i].initials + " - " + storedList[i].score + "</span><br>";
+        var y = i+1;
+        if(!link)
+         values += "<span>" + y + ". " + storedList[i].initials + " - " + storedList[i].score + "</span><br>";
+        else
+        values +=  y + ". " + storedList[i].initials + " - " + storedList[i].score + "<br>";
+
     }
 
     console.log("values = " + values);
@@ -97,9 +102,9 @@ function getScoreListString() {
 
 //Function to show results list
 function showResults() {
-    var values = getScoreListString();
+    var values = getScoreListString(false);
 
-    initCard.innerHTML = "<b>High Scores:</b><br><p>" + values + "</p><br> <button id=\"goBack\" class=\"btn\">Go Back</button><button id=\"clearScores\" class=\"btn\">Clear High Scores</button>";
+    initCard.innerHTML = "<b>High Scores:</b><br>" + values + "<br> <button id=\"goBack\" class=\"btn\">Go Back</button><button id=\"clearScores\" class=\"btn\">Clear High Scores</button>";
 }
 
 wrapper.addEventListener("click", function (event) {
@@ -111,7 +116,7 @@ wrapper.addEventListener("click", function (event) {
 
     if (element.innerHTML === "View High Scores") {
         console.log("view high score clicked");
-        var values = getScoreListString();
+        var values = getScoreListString(true);
         var newValues = values.replace(/<br>/g, "\n");
         alert(newValues);
 
@@ -139,7 +144,8 @@ wrapper.addEventListener("click", function (event) {
         result.textContent = "";
         numQues = 0;
         score = 0;
-        init();
+       // init();
+       location.reload();
 
     } else if (element.innerHTML === "Clear high Scores") {
         scoreList.length = 0;

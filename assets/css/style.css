@@ -57,8 +57,8 @@ input{
 }
 
 span{
-  padding:5px;
-  margin:5px;
+  /* padding:5px; */
+  /* margin:5px; */
   /* height:20px;
   width:100%;*/
   background-color:var(--brown); 
@@ -66,7 +66,7 @@ span{
   font-size:20px;
   color:var(--back);
   text-align:left;
-  width:max-content;
+  width:auto;
 }
 
 
