@@ -26,15 +26,15 @@ Code Quiz runs a timed Javascript quiz and displays the high scorea fo al the pa
     * A "Clear High Score" button is displayed
 6. When the "Go Back" button is pressed, the quiz start again with message described in step #1 above and Start button.
 7. When "Clear High Score" is pressed, nothing happens.  
-8. At any point in the game, if the uer clicks on "View High Score" link on top left corner, the list of high scores so far from all sessions is displayed in an alert popup.
+8. At any point in the game, if the user clicks on "View High Score" link on top left corner, the list of high scores so far from all sessions is displayed in an alert popup.
 
 
 ## Mock Up
 
-![Screenshots of the quiz](./assets/images/start.JPG, ./assets/images/question.JPG, ./assets/images/score.JPG, ./assets/images/highScore.JPG)
+![Screenshot of the quiz](./assets/images/Screenshot.JPG)
 
 Demo of the project:
-![Code Quiz demo](./assets/images/Password-Generator-Demo.gif)
+![Code Quiz demo](./assets/images/Code-Quiz.gif)
 
 
 ## Usage
