@@ -99,14 +99,15 @@ span{
   } 
   
   .card-body {
-    width: 80%;
+    width: 90%;
     height:80%;
     display:flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:flex-start;
     text-align:center;
-    align-items: center;
-    margin-left:10%;
+    align-items:center;
+    margin-left:5%;
+    margin-top:5%;
   }
   
   .card-footer {
@@ -136,7 +137,7 @@ span{
       0px;
     color: hsl(0, 0%, 100%);
     display: inline-block;
-    font-size: 22px;
+    font-size: 1rem;
     line-height: 22px;
     margin: 16px 16px 16px 20px;
     padding: 14px 50px;
@@ -178,9 +179,6 @@ span{
       padding: 10px 15px;
     }
   
-#password {
-      font-size: 1rem;
-    }
   }
   
   @media (max-width: 500px) {
