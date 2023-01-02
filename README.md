@@ -2,7 +2,7 @@
 Repository for Module 4 Challenge - Code Quiz using HTML, CSS, JavaScript and Web APIS
 
 ## Description
-Code Quiz runs a timed Javascript quiz and displays the high scorea fo al the participants.  Here are the features of this program:
+Code Quiz runs a timed Javascript quiz and displays the high scores of all the participants.  Here are the features of this program:
 
 1. At the start of the Quiz, a message is displayed informing the user about the rule that any wrong answer will result in time detected from the timer.  it also displays the Start button.
 2. When the user clicks the Start button:
@@ -15,7 +15,7 @@ Code Quiz runs a timed Javascript quiz and displays the high scorea fo al the pa
 4. If the question is the last one or the timer has reached zero:
     * The timer displays "Done" on header
     * A message "All Done!" is displayed.
-    * The final score which is the time left on the timer)
+    * The final score which is the time left on the timer
     * An input box for the user to type in their initials
     * A Submit button is displayed 
 5. When the uer type in their initials and click on the Submit button:
