@@ -1,5 +1,5 @@
 # Code-Quiz
-Repository for Module 4 Challenge - Code Quiz using HTML, CSS, JavaScript and Web APIS
+Repository for Module 4 Challenge - Code Quiz using HTML, CSS, JavaScript and Web APIs
 
 ## Description
 Code Quiz runs a timed Javascript quiz and displays the high scores of all the participants.  Here are the features of this program:
